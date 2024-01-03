@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-con{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    padding-top: 30px;
+}
+.con{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+   
+ 
+   
+}
+.left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left img{
+    width: 70%;
+    height: 89vh;
+
+}
+.right{
+    width: 48%;
+    height: auto;
+    display: flex;
+    row-gap: 15px;
+    align-items:start;
+    justify-content: start;
+    flex-direction: column;
+    
+}
+.right a{
+    color: black;
+   
+}
+
+.right input{
+    width: 250px;
+    height:30px;
+    
+}
+.right button{
+    width: 250px;
+    height:40px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right img{
+    width: 25px;
+    height: auto;
+}
+.down{
+    width: auto;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    right: 18%;
+   
+}
+.down img{
+    width:250px;
+    height:500px;
+    
+
+   
+}
+@media(max-width:768px){
+    
+    .main-con{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        position: relative;
+        /* padding-top: 30px; */
+        padding-top: 0px;
+    }
+    .con{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+       
+     
+       
+    }
+    .right{
+        width: 100%;
+        height: auto;
+        display: flex;
+        row-gap: 15px;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+    .right input{
+        width: 250px;
+        height:30px;
+        
+    }
+    .right button{
+        width: 250px;
+        height:40px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right img{
+        width: 25px;
+        height: auto;
+    }
+.down{
+    display: none;
+}
+
+    
+}
